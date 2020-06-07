@@ -1,0 +1,52 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "tell random fact about cats",
+          "examplePhrases": [
+            "Alexa open random cat fact",
+            "next",
+            "author"
+          ],
+          "keywords": [
+            "cat",
+            "random",
+            "fact",
+            "fun"
+          ],
+          "name": "Random Cat Fact",
+          "description": "Simple Alexa skill that tell each time unique random fact about cats.",
+          "smallIconUri": "file://assets/images/en-GB_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-GB_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "\"open random cat fact\" \"next\" or \"next fact\"",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:415910621960:function:249a491f-1f9f-4835-be8a-fadfc2e7c2c3:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-GB": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

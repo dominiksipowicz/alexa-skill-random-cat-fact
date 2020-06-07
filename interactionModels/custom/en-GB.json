@@ -1,0 +1,51 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "random cat fact",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "NextIntentHandler",
+          "slots": [],
+          "samples": [
+            "tell me a random cat fact",
+            "give me a random cat fact",
+            "say random fact",
+            "random",
+            "next fact",
+            "give me next",
+            "next"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AuthorIntentHandler",
+          "slots": [],
+          "samples": [
+            "who wrote this skill",
+            "author",
+            "who design this skill",
+            "who build this skill",
+            "who is the author"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "8"
+}
