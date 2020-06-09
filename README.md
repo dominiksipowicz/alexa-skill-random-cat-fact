@@ -10,5 +10,5 @@
 # Architecture:
 - Lambda
 - Amazon Alexa Skill
-- random Cat Fact from HTTP REST API
+- API endpoint: [random Cat Fact HTTP REST API](http://cat-fact.herokuapp.com/facts/random)
 - https://www.amazon.co.uk/Devzone-Ltd-Random-Cat-Fact/dp/B089S8PLXC
